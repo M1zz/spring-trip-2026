@@ -292,16 +292,7 @@
   }
 
   .event-time {
-    position: absolute;
-    left: -200px;
-    top: 18px;
-    width: 120px;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--ink-soft);
-    text-align: right;
-    letter-spacing: 0.03em;
+    display: none;
   }
 
   .event-card {
@@ -393,9 +384,9 @@
   }
 
   .event-mobile-time {
-    display: none;
+    display: block;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 500;
     color: var(--terracotta);
     margin-bottom: 4px;
@@ -743,9 +734,6 @@
     .rail-wrap { padding-left: 40px; }
     .rail-wrap::before { left: 12px; }
     .event-dot { left: -34px; width: 14px; height: 14px; }
-
-    .event-time { display: none; }
-    .event-mobile-time { display: block; }
 
     .event-card { grid-template-columns: 1fr; }
     .event-media { min-height: 140px; max-height: 180px; border-right: none; border-bottom: 1px solid var(--line); }
